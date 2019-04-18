@@ -1,0 +1,22 @@
+packaging the app with a virtualenv (allows us to bundle the app with Docker API)
+use docker API instead of using subprocess
+reduce the image with alpine
+su - $USER allows us to reload groups without
+
+Config de base
+
+Compilation incrementale
+probleme de dependance
+augmenter la diversité
+
+refactoring du code
+
+Objectif: pouvoir faire évoluer le code de facon a pouvoir compiler n'importe quelle version du kernel
+
+classification (compilation aboutie ou non)
+regression (variable quantitative)
+
+revoir le fonctionnement avec l'API Docker de docker_image_tuxml.py et de kernel_generator.py
+voir aussi le fichier settings_image_tuxml
+
+l'architecture du projet est a revoir aussi
