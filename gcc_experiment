@@ -1,6 +1,6 @@
 donc pour l'experience de compilation il faut aller voir le fichier Documentation/Changes.
 
-Ce dernier indique la version minimale de chaque paquet a utiliser et donc, d'après celui contenu dans le noyau 4.13.3, la versiond de gcc minimale est 3.2
+Ce dernier indique la version minimale de chaque paquet a utiliser et donc, d'après celui contenu dans le noyau 4.13.3, la version de gcc minimale est 3.2
 
 l'experience que je vais mener est donc la suivante, je vais installer la dernière version (si disponnible) de chaque série de gcc (4.x, 5.x, 6.x, 7.x), sachant qu'a l'heure ou j'écrit ces lignes la version installé sur mon systeme ArchLinux est 8.2.1 (la série 9.x étant en dévelopement).
 
@@ -8,7 +8,6 @@ Néanmoins j'utilise la version 18.04 d'ubuntu qui possède dans ses dépots des
 
 je vais ensuite compiler le noyau avec chacune de ces versions (make tinyconfig).
 Et vérifier la taille du binaire obtenu, ainsi nous pourrons déterminer si la version de gcc est un facteur important ou négligeable dans la détermination de la taille du binaire obtenu.
-
 
 avec make tinyconfig, la taille de vmlinux:
 
